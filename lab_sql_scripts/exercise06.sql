@@ -39,4 +39,4 @@ DELETE FROM Emp WHERE YEAR(hiredate) <= YEAR(CURRENT_DATE)-30;
 
 SELECT mgr,COUNT(*) AS Num_Employees FROM Emp GROUP BY mgr ORDER BY Num_Employees DESC LIMIT 1;
 
-CREATE VIEW EmployeeManagerView AS SELECT e1.name AS EmployeeName, e2.ename AS ManagerName From Emp e1 LEFT JOIN Emp e2 ON e1.mgr = e2.mgr;
+CREATE VIEW EmployeeManagerView AS SELECT e1.ename AS EmployeeName, e2.ename AS ManagerName From Emp e1 LEFT JOIN Emp e2 ON e1.mgr = e2.mgr;

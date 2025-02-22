@@ -20,6 +20,6 @@ SELECT Name FROM Client_Master WHERE bal_due >5000;
 
 UPDATE Client_Master SET bal_due =5100 WHERE ClientNo = 'C123';
 
-ALTER TABLE Client_Master RENAME TO Client12
+ALTER TABLE Client_Master RENAME TO Client12;
 
 SELECT ClientNo, Name, City, State, bal_due AS BALANCE FROM Client_Master;
