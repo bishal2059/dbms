@@ -1,0 +1,69 @@
+mysql> source exercise05.sql
+Database changed
+Query OK, 0 rows affected (0.05 sec)
+
+Query OK, 5 rows affected (0.01 sec)
+Records: 5  Duplicates: 0  Warnings: 0
+
+Query OK, 5 rows affected (0.00 sec)
+Rows matched: 5  Changed: 5  Warnings: 0
+
+Query OK, 0 rows affected (0.01 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+Query OK, 5 rows affected (0.00 sec)
+Rows matched: 5  Changed: 5  Warnings: 0
+
+Query OK, 0 rows affected (0.01 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+Query OK, 5 rows affected (0.01 sec)
+Rows matched: 5  Changed: 5  Warnings: 0
+
+Query OK, 0 rows affected (0.02 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+Query OK, 5 rows affected (0.00 sec)
+Rows matched: 5  Changed: 5  Warnings: 0
+
+Query OK, 0 rows affected (0.01 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+Query OK, 5 rows affected (0.00 sec)
+Rows matched: 5  Changed: 5  Warnings: 0
+
+Query OK, 0 rows affected (0.02 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+Query OK, 5 rows affected (0.00 sec)
+Rows matched: 5  Changed: 5  Warnings: 0
+
++--------+-----------------+-----------------+-------+------+-------+------+-----------+---------+------+-------+------+------------+----------+
+| Emp_No | Emp_Name        | Designation     | basic | DA   | HRA   | PF   | Gross_pay | Net_pay | DA2  | HRA2  | PF2  | Gross_pay2 | Net_pay2 |
++--------+-----------------+-----------------+-------+------+-------+------+-----------+---------+------+-------+------+------------+----------+
+|      1 | Sadish Pradhan  | Coach           | 50000 | 7000 | 10000 | 5000 |     67000 |   62000 | 7700 | 11500 | 4750 |      69200 |    64450 |
+|      2 | Bikash Gurung   | Trainer         | 45000 | 6500 |  9000 | 4500 |     60500 |   56000 | 7150 | 10350 | 4275 |      62500 |    58225 |
+|      3 | Ashim Shrestha  | Physiotherapist | 48000 | 6800 |  9500 | 4800 |     64300 |   59500 | 7480 | 10925 | 4560 |      66405 |    61845 |
+|      4 | Roshan Maharjan | Team Manager    | 52000 | 7200 | 10500 | 5200 |     69700 |   64500 | 7920 | 12075 | 4940 |      71995 |    67055 |
+|      5 | Binod Shrestha  | Referee         | 43000 | 6000 |  8700 | 4300 |     57700 |   53400 | 6600 | 10005 | 4085 |      59605 |    55520 |
++--------+-----------------+-----------------+-------+------+-------+------+-----------+---------+------+-------+------+------------+----------+
+5 rows in set (0.00 sec)
+
++----------------+-------+-------------+
+| Emp_Name       | Basic | Designation |
++----------------+-------+-------------+
+| Binod Shrestha | 43000 | Referee     |
++----------------+-------+-------------+
+1 row in set (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+Rows matched: 0  Changed: 0  Warnings: 0
+
+Empty set (0.00 sec)
+
++-----------------+-----------+
+| Emp_Name        | Gross_pay |
++-----------------+-----------+
+| Roshan Maharjan |     69700 |
++-----------------+-----------+
+1 row in set (0.00 sec)

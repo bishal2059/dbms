@@ -1,0 +1,32 @@
+mysql> source exercise08.sql
+Database changed
+ERROR 1146 (42S02): Table 'lab_db.emp' doesn't exist
++-----------------+-----------------+
+| EmployeeName    | DepartmentName  |
++-----------------+-----------------+
+| Rajesh Shrestha | Human Resources |
+| Sita Pandey     | Finance         |
+| Bikash Thapa    | IT              |
+| Anjali Gurung   | Marketing       |
+| Kiran Basnet    | Sales           |
++-----------------+-----------------+
+5 rows in set (0.00 sec)
+
++-----------------+-----------------+
+| EmployeeName    | DepartmentName  |
++-----------------+-----------------+
+| Rajesh Shrestha | Human Resources |
+| Sita Pandey     | Finance         |
+| Bikash Thapa    | IT              |
+| Anjali Gurung   | Marketing       |
+| Kiran Basnet    | Sales           |
++-----------------+-----------------+
+5 rows in set (0.00 sec)
+
++-------+-----------------+----------+
+| empno | ename           | sal      |
++-------+-----------------+----------+
+|   101 | Rajesh Shrestha | 75000.00 |
+|   103 | Bikash Thapa    | 85000.00 |
++-------+-----------------+----------+
+2 rows in set (0.00 sec)

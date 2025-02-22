@@ -1,0 +1,42 @@
+mysql> source exercise02.sql
+Reading table information for completion of table and column names
+You can turn off this feature to get a quicker startup with -A
+
+Database changed
+Query OK, 0 rows affected (0.04 sec)
+
+Query OK, 5 rows affected (0.01 sec)
+Records: 5  Duplicates: 0  Warnings: 0
+
++----------+---------+------------+---------+---------+
+| ClientNo | Name    | City       | State   | bal_due |
++----------+---------+------------+---------+---------+
+| C001     | Sabina  | Pokhara    | Gandaki |    4000 |
+| C003     | Niraj   | Biratnagar | Koshi   |    3500 |
+| C004     | Bibek   | Butwal     | Lumbini |    6000 |
+| C005     | Anamika | Dharan     | Koshi   |    4500 |
+| C123     | Sneha   | Kathmandu  | Bagmati |    5000 |
++----------+---------+------------+---------+---------+
+5 rows in set (0.00 sec)
+
++-------+
+| Name  |
++-------+
+| Bibek |
++-------+
+1 row in set (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+ERROR 1050 (42S01): Table 'Client12' already exists
++----------+---------+------------+---------+---------+
+| ClientNo | Name    | City       | State   | BALANCE |
++----------+---------+------------+---------+---------+
+| C001     | Sabina  | Pokhara    | Gandaki |    4000 |
+| C003     | Niraj   | Biratnagar | Koshi   |    3500 |
+| C004     | Bibek   | Butwal     | Lumbini |    6000 |
+| C005     | Anamika | Dharan     | Koshi   |    4500 |
+| C123     | Sneha   | Kathmandu  | Bagmati |    5100 |
++----------+---------+------------+---------+---------+
+5 rows in set (0.00 sec)

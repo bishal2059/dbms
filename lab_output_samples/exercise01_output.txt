@@ -1,0 +1,60 @@
+mysql> SOURCE exercise01.sql
+Query OK, 1 row affected, 1 warning (0.00 sec)
+
+Reading table information for completion of table and column names
+You can turn off this feature to get a quicker startup with -A
+
+Database changed
+Query OK, 0 rows affected (0.01 sec)
+
+Query OK, 0 rows affected (0.01 sec)
+
+Query OK, 5 rows affected (0.00 sec)
+Records: 5  Duplicates: 0  Warnings: 0
+
++--------+------------+-----------+------------+------------+--------+------------+----------------+------------+---------------+
+| Emp_id | First_name | Last_name | Phone_No   | Hire_date  | Job_id | Emp_Salary | Commission_Pct | manager_id | Department_id |
++--------+------------+-----------+------------+------------+--------+------------+----------------+------------+---------------+
+|      1 | Abishek    | Sharma    | 9876543210 | 2025-01-01 | MGR    |     100000 |           0.03 |          5 |            12 |
+|      2 | Prakash    | Poudell   | 9876543210 | 2024-12-15 | DEV    |      85000 |           0.02 |          4 |            10 |
+|      3 | Sagun      | Shrestha  | 9865432109 | 2023-06-20 | HR     |      75000 |          0.025 |          3 |             8 |
+|      4 | Anish      | Koirala   | 9856321478 | 2022-09-10 | MGR    |     120000 |           0.04 |          6 |            15 |
+|      5 | Sumeru     | Dhakal    | 9807654321 | 2025-03-05 | DEV    |      95000 |           0.03 |          5 |            12 |
++--------+------------+-----------+------------+------------+--------+------------+----------------+------------+---------------+
+5 rows in set (0.00 sec)
+
++--------+------------+-----------+------------+
+| Emp_id | First_name | Last_name | Emp_Salary |
++--------+------------+-----------+------------+
+|      1 | Abishek    | Sharma    |     100000 |
+|      2 | Prakash    | Poudell   |      85000 |
+|      3 | Sagun      | Shrestha  |      75000 |
+|      4 | Anish      | Koirala   |     120000 |
+|      5 | Sumeru     | Dhakal    |      95000 |
++--------+------------+-----------+------------+
+5 rows in set (0.00 sec)
+
++------------+-----------+------------+
+| First_name | Last_name | Emp_Salary |
++------------+-----------+------------+
+| Abishek    | Sharma    |     100000 |
+| Prakash    | Poudell   |      85000 |
+| Sagun      | Shrestha  |      75000 |
+| Anish      | Koirala   |     120000 |
+| Sumeru     | Dhakal    |      95000 |
++------------+-----------+------------+
+5 rows in set (0.00 sec)
+
+Empty set (0.00 sec)
+
+Empty set (0.00 sec)
+
++------------+
+| manager_id |
++------------+
+|          5 |
+|          4 |
+|          3 |
+|          6 |
++------------+
+4 rows in set (0.00 sec)

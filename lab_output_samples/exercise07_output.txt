@@ -1,0 +1,34 @@
+mysql> source exercise07.sql
+Database changed
++--------------+
+| EmployeeName |
++--------------+
+| Bikash Thapa |
++--------------+
+1 row in set (0.00 sec)
+
++-----------------+----------+-----------------+
+| ename           | sal      | dname           |
++-----------------+----------+-----------------+
+| Rajesh Shrestha | 75000.00 | Human Resources |
+| Sita Pandey     | 60000.00 | Finance         |
+| Bikash Thapa    | 85000.00 | IT              |
+| Anjali Gurung   | 55000.00 | Marketing       |
+| Kiran Basnet    | 50000.00 | Sales           |
++-----------------+----------+-----------------+
+5 rows in set (0.00 sec)
+
+Empty set (0.00 sec)
+
++-----------------+
+| ename           |
++-----------------+
+| Rajesh Shrestha |
+| Sita Pandey     |
+| Bikash Thapa    |
+| Anjali Gurung   |
+| Kiran Basnet    |
++-----------------+
+5 rows in set (0.00 sec)
+
+Empty set (0.00 sec)

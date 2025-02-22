@@ -1,0 +1,44 @@
+mysql> source exercise04.sql
+Database changed
+Query OK, 0 rows affected (0.05 sec)
+
+Query OK, 5 rows affected (0.00 sec)
+Records: 5  Duplicates: 0  Warnings: 0
+
++------------+--------------------+
+| Branch     | Total_Sales_Amount |
++------------+--------------------+
+| Pokhara    |             125000 |
+| Lalitpur   |              60000 |
+| Biratnagar |              55000 |
+| Butwal     |              58000 |
++------------+--------------------+
+4 rows in set (0.00 sec)
+
++------------+--------------------+
+| Branch     | Total_Sales_Amount |
++------------+--------------------+
+| Pokhara    |              62500 |
+| Lalitpur   |              60000 |
+| Biratnagar |              55000 |
+| Butwal     |              58000 |
++------------+--------------------+
+4 rows in set (0.00 sec)
+
++--------------+-----------+
+| Sales_Name   | DOB_Char  |
++--------------+-----------+
+| Paras Khadka | 06-Dec-88 |
++--------------+-----------+
+1 row in set (0.00 sec)
+
++----------------+-----------+
+| Sales_Name     | DOB_Char  |
++----------------+-----------+
+| Sujal Shrestha | 05-Feb-92 |
+| Kiran Chhetri  | 24-Mar-90 |
+| Anish Bista    | 22-May-98 |
+| Parbati Magar  | 14-Sep-98 |
+| Paras Khadka   | 06-Dec-88 |
++----------------+-----------+
+5 rows in set (0.00 sec)
